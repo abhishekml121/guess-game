@@ -13,6 +13,6 @@ you have to do just only guess that number.
 */
 
 /*
-About me : I love to play with PHP and Javascript
-take a look on my website 'https://defencer.000webhostapp.com/' .
+About me : I love to play with PHP and Javascript.
+so take a look on my website 'https://defencer.000webhostapp.com/' .
 */
