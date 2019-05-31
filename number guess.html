@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" media="all" href="guess_game.css" />
+    <title> Title </title>
+</head>
+
+<body>
+   <main>
+   <header>
+    <h1>The Guess game... <span>_make your mind sharper_</span><hr></h1>
+    </header>
+    <p style="font-size: 18px">I'm thiking number between <big>1</big> and <big>50</big>. Try to guess the number.</p>
+    <label for="user_guess" id="label1">Guess : </label> <input type="text" id="user_guess_input" placeholder="disabled">
+    <button id="submit">submit</button> <br><br>
+    <fieldset style="position: relative;">
+  <legend>You Guessed</legend>
+  <p id="guessed_info"></p> <span id="remaining" title="chance left"></span>
+ </fieldset>
+  
+   <fieldset>
+       <legend>Detail about previous guess</legend>
+       <p id="para_info"></p>
+   </fieldset>
+    
+    <fieldset>
+        <legend>Win Info</legend>
+        <p id="win_info"></p>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Invalid guess</legend>
+            <p id="wrong" style="color: red;
+            "></p>
+        </fieldset>
+        <br><br>
+    <button id="start_game_btn">Start the game</button>
+    
+    
+    
+    
+</main>
+
+    <script src="guess_game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+body {
+        padding: 0px;
+        margin: 0px;
+        font-size: 16px;
+        
+    }
+
+    main {
+        width: 80%;
+        margin: 0 auto;
+        background-color: aquamarine;
+        padding-bottom: 10px;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: sans-serif;
+        text-shadow: 0px 8px 0px #33bfbf;
+        margin-top: 0;
+    }
+   
+    h1 span {
+        color: rgba(85, 85, 85, 0.54);
+        display: block;
+        font-size: 16px;
+        text-shadow: 0px 0px 0px;
+    }
+    input, #submit, #label1{font-size: 25px;}
+    button:hover{cursor:pointer}
+    #start_game_btn{
+        padding: 8px; font-size: 25px;border-radius: 5px;margin-left: 10px;border-left: 5px solid #989898;border-top: 2px solid #989898;background: linear-gradient(45deg, #555,white);
+        position: sticky;bottom: 0px;
+    }
+    fieldset{display: inline-block; min-width:650px;padding-bottom: 0px;margin-bottom: 20px;}
+    legend{text-transform: capitalize;background-color: rgba(183, 183, 171, 0.67);padding:5px;color:#318027; font-family: sans-serif;letter-spacing: 1px;animation-duration: 2s;animation-timing-function: ease-in-out;}
+    fieldset p{margin-bottom: 5px ;transition: 0.7s; transition-timing-function: cubic-bezier(.2,.18,.68,.28);}
+    #win_info{margin-top: 20px;}
+    @keyframes animi{
+        from{background-color: yellow}
+        to{background-color: rgba(183, 183, 171, 0.67);}
+    }
+    #remaining{padding: 9px;background-color: royalblue;position: absolute;top: 0.7em;right: 0 }
